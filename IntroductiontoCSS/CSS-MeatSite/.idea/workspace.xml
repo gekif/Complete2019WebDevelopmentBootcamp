@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ad7f17aa-fc33-4891-88da-1e55b3df6b6c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CSS-MeatSite/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../CSS-MeatSite/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CSS-MeatSite/css/styles.css" afterPath="$PROJECT_DIR$/../CSS-MeatSite/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CSS-MeatSite/index.html" afterPath="$PROJECT_DIR$/../CSS-MeatSite/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -131,7 +129,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573544861036</updated>
-      <workItem from="1573544862376" duration="1196000" />
+      <workItem from="1573544862376" duration="1297000" />
     </task>
     <task id="LOCAL-00001" summary="4. Introduction to CSS: 7. The Anatomy of CSS Syntax">
       <created>1573545331659</created>
@@ -147,11 +145,18 @@
       <option name="project" value="LOCAL" />
       <updated>1573545679086</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="4. Introduction to CSS: 9. Classes vs. Ids">
+      <created>1573546065512</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573546065512</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1196000" />
+    <option name="totallyTimeSpent" value="1297000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="626" height="728" extended-state="0" />
@@ -184,7 +189,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="4. Introduction to CSS: 7. The Anatomy of CSS Syntax" />
     <MESSAGE value="4. Introduction to CSS: 8. CSS Selectors" />
-    <option name="LAST_COMMIT_MESSAGE" value="4. Introduction to CSS: 8. CSS Selectors" />
+    <MESSAGE value="4. Introduction to CSS: 9. Classes vs. Ids" />
+    <option name="LAST_COMMIT_MESSAGE" value="4. Introduction to CSS: 9. Classes vs. Ids" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
