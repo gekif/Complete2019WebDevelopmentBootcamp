@@ -1,8 +1,22 @@
+/*****************TAG SELECTORS*********************/
+
 h1 {
     color: red;
     font-size: 200px;
 }
 
+/*
 img {
+    background-color: red;
+}*/
+
+
+/**************CLASS SELECTORS***********************/
+
+.meat {
+    background-color: green;
+}
+
+.monkey {
     background-color: red;
 }
