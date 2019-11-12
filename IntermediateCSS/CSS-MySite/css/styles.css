@@ -8,6 +8,27 @@ h1 {
 
 .top-container {
     background-color: #E4F9F5;
+}
+
+.middle-container {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+.bottom-container {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+.scrum {
+    text-decoration: underline;
+}
+
+/*
+.top-container {
+    background-color: #E4F9F5;
     width: 200px;
     height: 200px;
     border: solid 10px;
@@ -28,4 +49,4 @@ h1 {
     height: 200px;
     border: solid 10px;
     margin-left: 500px;
-}
+}*/
