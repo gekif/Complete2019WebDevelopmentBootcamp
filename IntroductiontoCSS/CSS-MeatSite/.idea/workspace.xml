@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad7f17aa-fc33-4891-88da-1e55b3df6b6c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CSS-MeatSite/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../CSS-MeatSite/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CSS-MeatSite/css/styles.css" afterPath="$PROJECT_DIR$/../CSS-MeatSite/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CSS-MeatSite/index.html" afterPath="$PROJECT_DIR$/../CSS-MeatSite/index.html" />
     </list>
@@ -20,8 +21,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../CSS-MeatSite/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="187">
+              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -30,8 +31,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../CSS-MeatSite/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="255">
+              <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -130,7 +131,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573544861036</updated>
-      <workItem from="1573544862376" duration="806000" />
+      <workItem from="1573544862376" duration="1196000" />
     </task>
     <task id="LOCAL-00001" summary="4. Introduction to CSS: 7. The Anatomy of CSS Syntax">
       <created>1573545331659</created>
@@ -139,11 +140,18 @@
       <option name="project" value="LOCAL" />
       <updated>1573545331659</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="4. Introduction to CSS: 8. CSS Selectors">
+      <created>1573545679086</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573545679086</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="806000" />
+    <option name="totallyTimeSpent" value="1196000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="626" height="728" extended-state="0" />
@@ -175,7 +183,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="4. Introduction to CSS: 7. The Anatomy of CSS Syntax" />
-    <option name="LAST_COMMIT_MESSAGE" value="4. Introduction to CSS: 7. The Anatomy of CSS Syntax" />
+    <MESSAGE value="4. Introduction to CSS: 8. CSS Selectors" />
+    <option name="LAST_COMMIT_MESSAGE" value="4. Introduction to CSS: 8. CSS Selectors" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -184,16 +193,16 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../CSS-MeatSite/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="187">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../CSS-MeatSite/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="255">
+          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
           <folding />
         </state>
       </provider>
