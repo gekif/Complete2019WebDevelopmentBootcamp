@@ -1,1 +1,3 @@
-$('a').attr('href', 'https://www.yahoo.com');
+$(document).on('click', function () {
+    $('h1').css('color', 'purple');
+});
