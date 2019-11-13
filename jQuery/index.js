@@ -1,3 +1,3 @@
 $(document).on('click', function () {
-    $('h1').css('color', 'purple');
+    $('h1').slideUp().slideDown().animate({opacity: 0.5});
 });
