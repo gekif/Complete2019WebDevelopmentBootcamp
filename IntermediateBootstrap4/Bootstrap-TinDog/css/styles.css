@@ -131,6 +131,32 @@ p {
 }
 
 
+/*CTA Section*/
+#cta {
+    background-color: #FF4C68;
+    color: #FFFFFF;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: "Montserrat-Black", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+/*Footer Section*/
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+
 @media (max-width: 1029px) {
     #title {
         text-align: center;
