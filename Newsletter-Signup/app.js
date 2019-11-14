@@ -22,7 +22,44 @@ app.post('/', (req, res) => {
     let lastName = req.body.lName;
     let email = req.body.email;
 
-    console.log(`${firstName} ${lastName} ${email}`)
+    let data = {
+        members: [
+            {
+                email_address: email,
+                status: 'subscribed',
+                merge_fields: {
+                    FNAME: firstName,
+                    LNAME: lastName
+                }
+            }
+        ]
+    };
+
+    let jsonData = JSON.stringify(data);
+
+    let options = {
+        url: 'https://us19.api.mailchimp.com/3.0/lists/7c549989ec',
+        method: 'POST',
+        headers: {
+            'Authorization': 'gekif 816b38aea9ea02f23143bbcb32ebf3ff-us19'
+        },
+        body: jsonData
+
+    };
+
+    request(options, (error, response, body) => {
+        if (error) {
+            console.log(error);
+        } else {
+            console.log(response.statusCode);
+        }
+    });
+
+    // API Key
+    // 816b38aea9ea02f23143bbcb32ebf3ff-us19
+
+    // List ID
+    // 7c549989ec
 
 });
 
