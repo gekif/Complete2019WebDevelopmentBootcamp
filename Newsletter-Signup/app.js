@@ -43,24 +43,27 @@ app.post('/', (req, res) => {
         headers: {
             'Authorization': 'gekif 816b38aea9ea02f23143bbcb32ebf3ff-us19'
         },
-        body: jsonData
+        // body: jsonData
 
     };
 
     request(options, (error, response, body) => {
         if (error) {
-            console.log(error);
+            res.sendFile(__dirname + '/failure.html');
         } else {
-            console.log(response.statusCode);
+            if (response.statusCode === 200) {
+                res.sendFile(__dirname + '/success.html');
+            } else {
+                res.sendFile(__dirname + '/failure.html');
+            }
         }
     });
 
-    // API Key
-    // 816b38aea9ea02f23143bbcb32ebf3ff-us19
+});
 
-    // List ID
-    // 7c549989ec
 
+app.post('/failure', (req, res) => {
+    res.redirect('/');
 });
 
 
