@@ -1,9 +1,11 @@
 const mongoose = require('mongoose');
 
+
 mongoose.connect('mongodb://localhost:27017/fruitsDB', {
     useUnifiedTopology: true,
     useNewUrlParser: true
 });
+
 
 const fruitSchema = new mongoose.Schema({
     name: String,
@@ -11,7 +13,9 @@ const fruitSchema = new mongoose.Schema({
     review: String
 });
 
+
 const Fruit = mongoose.model('Fruit', fruitSchema);
+
 
 const fruit = new Fruit({
     name: "Apple",
@@ -19,21 +23,27 @@ const fruit = new Fruit({
     review: "Pretty solid as a fruit"
 });
 
+
 // fruit.save();
+
 
 const personSchema = new mongoose.Schema({
     name: String,
     age: Number
 });
 
+
 const Person = mongoose.model('Person', personSchema);
+
 
 const person = new Person({
     name: "John",
     age: 37
 });
 
+
 // person.save();
+
 
 const kiwi = new Fruit({
     name: "Kiwi",
@@ -41,11 +51,13 @@ const kiwi = new Fruit({
     review: "The best fruit"
 });
 
+
 const orange = new Fruit({
     name: "Orange",
     rating: 4,
     review: "Too sour for me"
 });
+
 
 const banana = new Fruit({
     name: "Banana",
@@ -53,13 +65,30 @@ const banana = new Fruit({
     review: "Weird texture"
 });
 
-Fruit.insertMany([kiwi, orange, banana], (err) => {
+
+/*Fruit.insertMany([kiwi, orange, banana], (err) => {
     if (err) {
         console.log(err);
     } else {
         console.log('Successfully save all the fruits to fruitsDB');
     }
+});*/
+
+
+Fruit.find((err, fruits) => {
+    if (err) {
+        console.log(err);
+    } else {
+        // console.log(fruits);
+
+        mongoose.connection.close();
+
+        fruits.forEach((fruit) => {
+            console.log(fruit.name);
+        });
+    }
 });
+
 
 const findDocuments = (db, callback) => {
     // Get the documents collection
