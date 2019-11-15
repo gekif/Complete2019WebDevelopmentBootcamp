@@ -30,7 +30,7 @@ const fruit = new Fruit({
 });
 
 
-fruit.save();
+// fruit.save();
 
 
 const personSchema = new mongoose.Schema({
@@ -51,7 +51,7 @@ const person = new Person({
 // person.save();
 
 
-Fruit.find((err, fruits) => {
+/*Fruit.find((err, fruits) => {
     if (err) {
         console.log(err);
     } else {
@@ -61,8 +61,42 @@ Fruit.find((err, fruits) => {
             console.log(fruit.name);
         });
     }
-});
+});*/
 
+
+/*Fruit.updateOne({_id: '5dce7165c9c49d569cc4e6c3'}, {name: "Peach"}, (err) => {
+    if (err) {
+        console.log(err);
+    } else{
+        console.log('Successfully updated the document.');
+    }
+
+    mongoose.connection.close();
+});*/
+
+
+/*
+Fruit.deleteOne({name: "Peach"}, (err) => {
+    if (err) {
+        console.log(err);
+    } else {
+        console.log('Successfully deleted the document.');
+    }
+
+    mongoose.connection.close();
+});
+*/
+
+
+Person.deleteMany({name: "John"}, (err) => {
+    if (err) {
+        console.log(err);
+    } else {
+        console.log('Successfully deleted the document.')
+    }
+
+    mongoose.connection.close();
+});
 
 
 
