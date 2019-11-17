@@ -71,15 +71,17 @@ app.route('/register').get((req, res) => {
 
 
 app.route('/secrets').get((req, res) => {
-    User.find({'secret': {$ne: null}}, (err, foundUsers) => {
-        if (err) {
+
+    User.find({"secret": {$ne: null}}, function(err, foundUsers){
+        if (err){
             console.log(err);
         } else {
             if (foundUsers) {
-                res.render('secrets', {usersWithSecrets: foundUsers});
+                res.render("secrets", {usersWithSecrets: foundUsers});
             }
         }
     });
+
 });
 
 
@@ -136,22 +138,22 @@ app.route('/submit').get((req, res) => {
 
 
 app.route('/submit').post((req, res) => {
+
     const submittedSecret = req.body.secret;
 
-    console.log(req.user.id);
-
-    User.findById(req.user.id, (err, foundUser) => {
+    User.findById(req.user.id, function(err, foundUser){
         if (err) {
             console.log(err);
         } else {
             if (foundUser) {
                 foundUser.secret = submittedSecret;
-                foundUser.save(() => {
-                    res.redirect('/secrets');
-                })
+                foundUser.save(function(){
+                    res.redirect("/secrets");
+                });
             }
         }
     });
+
 });
 
 
